@@ -29,7 +29,38 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
+class MyHomePage extends StatefulWidget {
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
 
+class _MyHomePageState extends State<MyHomePage> {
+  late LocationService locationService;
+
+  @override
+  void initState() {
+    super.initState();
+    locationService = LocationService();
+  }
+
+  @override
+  void dispose() {
+    locationService.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Location Service Demo'),
+      ),
+      body: Center(
+        child: Text('Location service is running...'),
+      ),
+    );
+  }
+}
 ```
 
 ## Additional information
