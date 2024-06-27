@@ -1,3 +1,3 @@
 library location_package;
 
-import 'src/location.dart';
+export 'src/location_service.dart';
