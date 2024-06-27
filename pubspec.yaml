@@ -1,5 +1,5 @@
 name: location_package
-description: "A new Flutter package project."
+description: "This Flutter package facilitates obtaining both background and foreground location updates. It empowers developers to seamlessly integrate location-aware features into their applications, ensuring accurate positioning data whether the app is active on-screen or running in the background."
 version: 0.0.1
 homepage: https://github.com/Shamsiddin1313/Location
 
