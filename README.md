@@ -15,7 +15,10 @@ This Flutter package facilitates obtaining both background and foreground locati
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Foreground and Background Geolocation: Track device location accurately whether the app is active on-screen or running in the background.
+Customizable Parameters: Configure update intervals, accuracy thresholds, and other settings to suit specific application needs.
+Battery Efficiency: Implement efficient location tracking strategies to optimize battery consumption.
+Platform Support: Compatible with Android and iOS platforms.
 
 ## Getting started
 
